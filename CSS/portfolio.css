@@ -1,0 +1,39 @@
+:root {
+  --text-h: #212121;
+  --text-p: #757575;
+  --text-focus: #2196f3;
+  --text-hero: #ffffff;
+  --background-hero-footer: #2f303a;
+  --text-adress: rgba(255, 255, 255, 0.6);
+  --background-button: #f5f4fa;
+}
+.blue {
+  color: var(--text-focus);
+}
+button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--text-h);
+  background: var(--background-button);
+}
+button:hover {
+  color: var(--text-hero);
+  background-color: var(--text-focus);
+}
+.product-name {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--text-h);
+}
+.product-type {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: var(--text-p);
+}

@@ -1,0 +1,76 @@
+:root {
+  --text-h: #212121;
+  --text-p: #757575;
+  --text-focus: #2196f3;
+  --text-hero: #ffffff;
+  --background-hero-footer: #2f303a;
+  --text-adress: rgba(255, 255, 255, 0.6);
+}
+/*Main*/
+.hero {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--text-hero);
+  background-color: var(--background-hero-footer);
+}
+.request {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.87px;
+  letter-spacing: 0.06em;
+  color: var(--text-hero);
+}
+.hidden {
+  font-size: 0;
+}
+.advantage {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--text-h);
+}
+.advantage-text {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--text-p);
+}
+.business {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--text-h);
+}
+.team {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--text-h);
+}
+.team-part {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--text-h);
+}
+.team-part-position {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
