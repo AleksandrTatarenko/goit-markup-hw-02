@@ -18,6 +18,7 @@
   background-color: var(--background-hero-footer);
 }
 .request {
+  background-color: var(--text-focus);
   font-weight: bold;
   font-size: 16px;
   line-height: 1.87px;
