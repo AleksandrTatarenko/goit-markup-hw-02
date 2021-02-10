@@ -10,8 +10,12 @@
 .blue {
   color: var(--text-focus);
 }
+.hidden {
+  font-size: 0;
+}
 button {
   font-family: Roboto;
+  font-weight: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -26,6 +30,7 @@ button:hover {
   background-color: var(--text-focus);
 }
 .product-name {
+  font-family: Roboto;
   font-weight: bold;
   font-size: 18px;
   line-height: 2;
@@ -33,6 +38,7 @@ button:hover {
   color: var(--text-h);
 }
 .product-type {
+  font-family: Roboto;
   font-weight: normal;
   font-size: 16px;
   line-height: 1.87;
